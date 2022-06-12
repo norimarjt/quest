@@ -5,7 +5,7 @@
 }*/
 body {
 	background: greenyellow;
-	 width: 640px;
+	 /*width: 640px;*/
 	 display: flex;
 	 flex-direction: column;
 	 justify-content: space-between;
