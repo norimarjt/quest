@@ -5,7 +5,7 @@
 }*/
 body {
 	background: greenyellow;
-	 width: 600px;
+	 width: 640px;
 	 display: flex;
 	 flex-direction: column;
 	 justify-content: space-between;
@@ -14,51 +14,127 @@ body {
 	 overflow: auto;
 	 padding: 5px 0;
 }
+header h1 {
+	padding: 10px 0 0 30px;
+}
 header h2 {
-	text-align: center;
+	text-align: left;
+	padding: 0 0 0 80px;
 }
 .header {
 	background: #003466;
 	color: #f5f5f6;
+	/*padding: 0, 0, 10px, 40px;*/
+	border-radius: 50px 0 100px 0;
 }
 .respostas {
 	background: #fe9900;
 	color: #666666;
-}
-.enviar {
-	background: #cccccc;
-	color: #666666;
-}
-/*.logo {
-	display: flex;
-		justify-content: space-between;
-}*/
-.logo img {
-	width: 10%;
-	height: auto;
-	float: left;
+	opacity: 0.9;
+	margin-top: -45px;
+	border-radius: 15px;
 }
 .respostas img {
 	width: 10%;
 	height: auto;
 }
+.logo {
+	padding: 0 0 55px 30px;
+	/*display: flex;
+	 justify-content: space-between;*/
+}
+.logo img {
+	width: 10%;
+	height: auto;
+	float: left;
+	padding: 35px 0 0 0;
+}
+
 h3 {
-	font-size: 20px;
+	font-size: 25px;
+	padding: 0 20px 0 0 ;
+}
+h4 {
+	font-size: 22px;
 }
 ul {
 	list-style: none;
 }
-li a {
-	display: flex;
-	text-decoration: none;
+.mapeamento {
+	padding: 15px 0 20px 50px;
 }
+.num_questao {
+	padding: 0 0 20px 80px;
+}
+.perguntas {
+	padding: 5px 0 0 90px;
+}
+
+
 .enviar {
-	display: flex;
-	 justify-content: space-between;
+	background: #cccccc;
+	color: #666666;
+	/*display: inline-flex;*/
+	justify-content: space-between;
+	vertical-align: center;
+	margin-top: -55px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 15px;
+	/*padding: 0 0 0 -20px;*/
 }
-/*.respostas img {
-    float: left;
-}*/
-/*.respostas p {
-    padding-left: 140px;
-}*/
+.enviar button {
+	 align-self: flex-row;
+	 font-size: 24px;
+	 font-weight: 400;
+	 padding: 4px 16px 10px 0;
+	 background: #ecf4ff;
+	 border-radius: 10px;
+	 margin-bottom: 15px;
+}
+.placar {
+	/*align-self: flex-start;*/
+	padding: 0 0 0 80px;
+}
+.botao1 {
+	/*align-self: center;*/
+	font-size: 30px;
+	font-weight: 400;
+	 background: #ecf4ff;
+	 border-radius: 10px;
+	 margin-left: 150px;
+	 margin-top: 15px;
+}
+.botao2 {
+	/*align-self: flex-end;*/
+	 font-size: 22px;
+	 font-weight: 300;
+	 background: #ecf4ff;
+	 border-radius: 10px;
+	 margin-left: 360px;
+	 margin-top: -550px;
+}
+footer {
+	z-index:4;
+	display: inline;
+}
+
+ul li {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	margin-bottom: 2px;
+}
+ul li img {
+	width: 70px;
+	height: auto;
+	margin-right: 10px;
+	float: left;
+}
+ul li h4 {
+	/*margin: -3px p 5px 0;*/
+	font-weight: 500;
+	margin-top: 17px;
+	padding: 0 30px 0 20px;
+}
+
